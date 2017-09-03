@@ -1,0 +1,15 @@
+logging:
+    level:
+        com.c.j.w: DEBUG
+    path: ./
+
+spring:
+  profiles:
+    active: dev
+
+# 开发
+---
+spring:
+    profiles: dev
+
+x: x

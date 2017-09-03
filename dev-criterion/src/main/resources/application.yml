@@ -1,0 +1,12 @@
+server:
+    port: 8080
+    sessionTimeout: 1440
+    tomcat:
+      max-threads: 50
+      uri-encoding: UTF-8
+
+logging:
+    level:
+        com.c.j.w: DEBUG
+    path: ./
+
