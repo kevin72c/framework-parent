@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.c.j.w</groupId>
-    <artifactId>framework-parent</artifactId>
+    <artifactId>x-framework-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>${project.artifactId}</name>
     <packaging>pom</packaging>
@@ -16,9 +16,10 @@
     </properties>
 
     <modules>
+        <module>framework-commons</module>
         <module>dev-criterion</module>
         <module>task</module>
-        <module>framework-commons</module>
+        <module>spring-boot-angularjs</module>
     </modules>
     <dependencyManagement>
         <dependencies>
